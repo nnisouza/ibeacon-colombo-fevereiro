@@ -1,5 +1,6 @@
 $(window).load(function() {
-    $('#maquina, .text').removeClass('hidden');
-    $('#maquina').addClass('fadeInLeft animated');
-    $('.text').addClass('fadeIn animated');
+    $('.wrapper').fadeIn('slow');
+    $('.leftH, .rightH, #maquina').removeClass('hidden');
+    $('.leftH, #maquina').addClass('fadeInLeft animated');
+    $('.rightH').addClass('fadeInRight animated');
 });

@@ -78,16 +78,21 @@ body, html{
     overflow-y: scroll;
     overflow-x: hidden;
     
+    display: none;
+    
 }
 .wrapper .header{
     width: 100%;
     height: auto;
-    background: url('../img/headerBG.jpg') top left;
     background-size:cover;
 }
 .wrapper .header .half{
     width: 50%;
     float: left;
+}
+.wrapper .header .half img{
+    width: 100%;
+    height: auto;
 }
 
 .wrapper .content{
@@ -107,6 +112,10 @@ body, html{
 .wrapper a{
     position: relative;
     display: block;
+    -webkit-transform: translateY(-29%);
+    -moz-transform: translateY(-29%);
+    -ms-transform: translateY(-29%);
+    transform: translateY(-29%);
 }
 .wrapper a img{
     width: 100%;
@@ -135,6 +144,11 @@ body, html{
     height: auto;
     display: block;
     margin: 0 auto;
+    
+    -webkit-transform: translateY(-20%);
+    -moz-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    transform: translateY(-20%);
 }
 
 
